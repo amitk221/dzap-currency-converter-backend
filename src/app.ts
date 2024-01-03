@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded bodies
 app.use("/api/crypto", currencyRoutes);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Express + TypeScript Server");
+  res.send("DZap Crypto currencies converter Server");
 });
 
 // Start server
